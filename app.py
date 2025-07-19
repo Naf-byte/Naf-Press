@@ -144,7 +144,7 @@ with st.sidebar:
     dpi = st.slider("Target DPI", 72, 600, 150, help="Higher DPI → larger PDF & finer print detail")
     output_name = st.text_input("Output filename", "converted.pdf")
     st.markdown("")  # force form to render
-    st.caption("Built with ❤️ Streamlit • Pillow • ReportLab")
+    # st.caption("Built with ❤️ Streamlit • Pillow • ReportLab")
 
 # --- PDF Generation Logic ---
 PAGE_SIZES = {"A4": A4, "Letter": letter}
@@ -242,7 +242,7 @@ with tabs[2]:
     """, unsafe_allow_html=True)
     st.subheader("Convert Online Image URLs to PDF")
     text = st.text_area("Enter URLs (one per line)",
-                        placeholder="https://example.com/image1.png\nhttps://…",
+                        placeholder="https://nafbyte.com/image1.png\nhttps://…",
                         label_visibility="collapsed")
     if text.strip() and st.button("Generate PDF", key="gen3"):
         urls = [u.strip() for u in text.splitlines() if u.strip()]
@@ -263,7 +263,7 @@ with tabs[2]:
     st.markdown("</div>", unsafe_allow_html=True)
 
 # Footer
-st.markdown("<div class='footer'>© 2025 Your Company — Streamlit • Pillow • ReportLab</div>", unsafe_allow_html=True)
+st.markdown("<div class='footer'>© 2025 Naf-Byte — Nafay UrRehman</div>", unsafe_allow_html=True)
 
 
 
