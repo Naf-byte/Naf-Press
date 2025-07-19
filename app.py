@@ -11,7 +11,7 @@ from reportlab.lib.utils import ImageReader
 st.set_page_config(
     page_title="Image → PDF Converter",
     layout="wide",
-    page_icon="favicon.png",          # ← add this line (or "favicon.ico")
+    page_icon="favicon.ico",          # ← add this line (or "favicon.ico")
     layout="wide",
 )
 
