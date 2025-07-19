@@ -207,7 +207,15 @@ with tabs[0]:
 
 # WebP Tab
 with tabs[1]:
-    st.markdown("<div class='tab-content'>", unsafe_allow_html=True)
+    st.markdown("""
+        <div class='tab-content'>
+        <p style="font-size:1.1rem; margin-bottom:1rem;">
+            Select one or more images (WEBP) from your computer—
+      drag & drop or browse below—and then click “Generate PDF” to compile them
+      into a single high-quality PDF document.
+        </p>
+        </div>
+    """, unsafe_allow_html=True)
     st.write("**Upload any WebP image to convert into PDF**")
     st.subheader("Upload WebP Files")
     files = st.file_uploader("Select .webp files",
@@ -224,7 +232,14 @@ with tabs[1]:
 
 # URLs Tab
 with tabs[2]:
-    st.markdown("<div class='tab-content'>", unsafe_allow_html=True)
+    st.markdown("""
+        <div class='tab-content'>
+        <p style="font-size:1.1rem; margin-bottom:1rem;">
+            Copy link of image and Paste the it below then click “Generate PDF” to compile them
+      into a single high-quality PDF document.
+        </p>
+        </div>
+    """, unsafe_allow_html=True)
     st.subheader("Convert Online Image URLs to PDF")
     text = st.text_area("Enter URLs (one per line)",
                         placeholder="https://example.com/image1.png\nhttps://…",
