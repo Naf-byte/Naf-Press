@@ -32,25 +32,13 @@ body, .block-container {
 }
 
 /* Header */
-/* Header */
-# .header {
-#   background-color: var(--primary-color);
-#   color: white;
-#   padding: 1rem 1rem;        /* less vertical padding */
-#   border-radius:2px;
-#   text-align: center;
-#   font-size: 2rem;           /* smaller text */
-#   font-weight: 600;
-#   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-#   margin-bottom: 0rem;         /* less space below */
-#   animation: fadeInDown 0.8s ease-out forwards;
 .header {
   background-color: var(--primary-color);
   color: white;
   padding: 1.5rem 2rem;
   border-radius: 8px;
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 600;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
   margin-bottom: 2rem;
