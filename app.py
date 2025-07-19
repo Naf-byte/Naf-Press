@@ -147,7 +147,7 @@ body, .block-container {
 """, unsafe_allow_html=True)
 
 # --- Header ---
-st.markdown("<div class='header'>Naf-Press \n\n Image to PDF Convertor</div>", unsafe_allow_html=True)
+st.markdown("<div class='header'>Image to PDF Convertor</div>", unsafe_allow_html=True)
 
 # # st.markdown('<style>div.block-container{padding-top:1rem; padding-left: 2rem; padding-right: 2rem;}</style>', unsafe_allow_html=True)
 # st.markdown("<div class='header'>Image to PDF Converter</div>", unsafe_allow_html=True)
