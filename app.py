@@ -12,7 +12,7 @@ st.set_page_config(
     page_title="Image → PDF Converter",
     layout="wide",
     page_icon="favicon.ico",          # ← add this line (or "favicon.ico")
-    layout="wide",
+    initial_sidebar_state="expanded"
 )
 
 # --- Custom CSS ---
