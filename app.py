@@ -270,7 +270,7 @@ with tabs[2]:
     st.markdown("</div>", unsafe_allow_html=True)
 
 # Footer
-st.markdown("<div class='footer'>© 2025 Naf-Byte — Nafay UrRehman</div>", unsafe_allow_html=True)
+st.markdown("<div class='footer'>© 2025 Naf-Byte — Nafay Ur Rehman</div>", unsafe_allow_html=True)
 
 
 
