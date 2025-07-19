@@ -254,7 +254,8 @@ with tabs[2]:
             except Exception as e:
                 errs.append(f"`{u}` → {e}")
         if errs:
-            st.error("Some URLs failed:\n" + "\n".join(errs))
+            st.error("❌ The provided URL does not point to an image.\n\n"
+            f"Please supply a direct image link ending with one of .png, .jpg, .jpeg, .bmp, .gif, .tiff, .webp")
         if imgs:
             pdf_buf = make_pdf(imgs)
             size_kb = len(pdf_buf.getvalue()) // 1024
