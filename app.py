@@ -39,7 +39,7 @@ body, .block-container {
   padding: 1rem 1rem;        /* less vertical padding */
   border-radius:2px;
   text-align: center;
-  font-size: 3rem;           /* smaller text */
+  font-size: 2rem;           /* smaller text */
   font-weight: 600;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   margin-bottom: 0rem;         /* less space below */
